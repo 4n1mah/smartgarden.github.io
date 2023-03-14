@@ -42,7 +42,11 @@ body {
     font-size: 6em;
     letter-spacing: -2px;
     text-align: center;
-	  margin-top: 250px; /* ajusta el valor según tu diseño */
+/* 	  margin-top: 250px; ajusta el valor según tu diseño */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .boton-mas-informacion {
