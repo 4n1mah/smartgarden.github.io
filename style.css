@@ -36,11 +36,11 @@ body {
 }
 
 
-.nombre-proyecto {
+.nombre-proyecto, h1 {
     color: rgb(2, 2, 2);
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    font-size: 6em;
+    font-size: 100px;
     letter-spacing: -2px;
     text-align: center;
     margin-top: 30px; 
@@ -105,7 +105,7 @@ body {
     margin: auto;
 }
 
-.container .row .header h1 { 
+.container .row .header h2 { 
     padding-top: 30px;
     font-size: 45px;
     color: #e19c30;
