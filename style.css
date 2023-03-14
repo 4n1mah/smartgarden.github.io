@@ -237,3 +237,10 @@ body {
     margin-top: 40px;
   }
 }
+
+@media (max-width: 767px) {
+  .nav-bar {
+    height: 60px;
+    padding: 10px;
+  }
+}
