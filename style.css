@@ -220,10 +220,10 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 95vh;
+    height: 100vh;
   }
 
   .nombre-proyecto {
-    margin-top: 30px;
+    margin-top: 40px;
   }
 }
