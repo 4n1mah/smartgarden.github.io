@@ -158,3 +158,54 @@ body {
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 768px) {
+  .nombre-proyecto {
+    font-size: 3em;
+    margin-top: 150px;
+  }
+  
+  .container .row {
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .container .row .header h1 {
+    font-size: 30px;
+  }
+  
+  .content {
+    flex-direction: column;
+  }
+  
+  .content .card {
+    margin: 20px 0;
+  }
+  
+  .content .card img {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .content .card h4 {
+    margin: 10px 0;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .content .card p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  
+  .boton-mas-informacion {
+    font-size: 0.6em;
+    padding: 15px 30px;
+  }
+  
+  .boton-mas-informacion:hover {
+    font-size: 0.7em;
+    padding: 20px 35px;
+  }
+}
+
