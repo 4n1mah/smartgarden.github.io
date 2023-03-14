@@ -176,7 +176,7 @@ body {
 @media screen and (max-width: 768px) {
   .nombre-proyecto {
     font-size: 3em;
-    margin-top: 100px;
+    margin-top: 150px;
   }
   
   .container .row {
@@ -234,7 +234,7 @@ body {
   }
 
   .nombre-proyecto {
-    margin-top: 40px;
+    margin-top: 60px;
   }
 }
 
