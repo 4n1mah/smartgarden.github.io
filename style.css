@@ -222,7 +222,7 @@ body {
     padding: 20px 35px;
   }
 }
- /* ete */
+/*
 @media screen and (max-width: 767px) {
   .fondo {
     display: flex;
@@ -236,7 +236,7 @@ body {
   .nombre-proyecto {
     margin-top: 60px;
   }
-}
+} */
 
 @media (max-width: 767px) {
   .nav-bar {
