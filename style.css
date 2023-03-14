@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+  overflow-x: hidden;
+}
+
+.fondo, body{
+	background: linear-gradient(-45deg, #ffffff, #fff202, #fe6d73, #fff202, #fe6d73);
+    background-size: 300% 300%;
+	animation: gradient 15s ease infinite;
+	height: 80vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.nombre-proyecto {
+    color: rgb(2, 2, 2);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 6em;
+    letter-spacing: -2px;
+    text-align: center;
+	  margin-top: 250px; /* ajusta el valor según tu diseño */
+}
+
+.boton-mas-informacion {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: black;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align:center;
+    font-size: 0.8em;
+    opacity: 0.8;
+    padding: 20px 40px;
+    text-decoration: none;
+    transition: all .5s ease;
+    margin: 0 auto;
+    display: block;
+    /* width: 180px; */
+ } 
+
+.boton-mas-informacion:hover {
+    font-size: 0.9em;
+    opacity: 1;
+    padding: 25px 45px;
+} 
+
+  @keyframes boton-mas-informacion {
+    0% {
+      /* top:20%; */
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      top: 90%;
+      opacity: 0;
+    }
+  }
+
+ /* Imagenes e info */
+
+.container {
+    width: 100%;
+    background-color: #fff;
+}
+
+.container .row {
+    width: 80%;
+    margin: auto;
+}
+
+.container .row .header {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.container .row .header h1 { 
+    padding-top: 30px;
+    font-size: 45px;
+    color: #e19c30;
+}
+
+.container .row .header p {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6e6e6e;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.content .card {
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1) ;
+    background-color: #fff;
+
+}
+
+.content .card img{
+    width: 100%;
+    height: auto;
+
+}
+
+.content .card h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+
+.content .card p{
+    font-size: 15px;
+    color: #6e6e6e;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .content {
+        flex-direction: column;
+    }
+}
