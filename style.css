@@ -246,6 +246,7 @@ body {
     padding: 20px 35px;
   }
    .imagen2 {
+	   margin-top: 20px;
     width: 90%;
     height: auto;
     position: relative;
